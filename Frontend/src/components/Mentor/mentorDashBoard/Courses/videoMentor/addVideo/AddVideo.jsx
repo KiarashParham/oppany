@@ -31,7 +31,7 @@ const AddVideo = () => {
   
     try {
       // Send the form data to the backend using axios
-      const response = await axios.post('http://localhost:8000/api/upload-video', formData, {
+      const response = await axios.post('http://154.91.170.123:8000/api/upload-video', formData, {
         headers: {
           'Content-Type': 'multipart/form-data', // Ensure correct headers for file upload
         },

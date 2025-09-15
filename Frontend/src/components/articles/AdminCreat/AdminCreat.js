@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./AdminCreat.css";
 
-const API_BASE_URL = "http://localhost:8000/admin/blog"; // Change this to your actual API URL
+const API_BASE_URL = "http://154.91.170.123:8000/admin/blog"; // Change this to your actual API URL
 
 const AdminCreate = () => {
   const [blogs, setBlogs] = useState([]);

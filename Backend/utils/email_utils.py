@@ -5,7 +5,7 @@ from config import settings
 def generate_validation_link(username: str, role: str):
     serializer = URLSafeTimedSerializer(settings.secret_key)
     token = serializer.dumps(username, salt="email-validation")
-    return f"http://localhost:3000/verify_email?role={role}&token={token}"
+    return f"http://154.91.170.123:3000/verify_email?role={role}&token={token}"
 
 
 def send_email_validation_link(username: str, role: str, email: str):

@@ -1,6 +1,6 @@
 const config = {
   // path: "https://oppany.com/api",
-  path: "http://localhost:8000",
+  path: "http://154.91.170.123",
 };
 
 export default config;
